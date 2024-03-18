@@ -1,0 +1,103 @@
+.bg{
+    background-image: url(image3.png);
+}
+
+nav {
+    text-align: center;
+    font-size: 25px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 20px;
+}
+
+.boxname{
+    padding: 50px;
+    width: 221px;
+    height: 331px;
+}
+
+.name{
+    background-color: #F9F7C9;
+    width: 295px;
+}
+
+.boxresume{
+    background-color: #F9F7C9;
+    width: 662px;
+    height: 327px;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.box2{
+    background-color: #7FC7D9;
+    display: flex;
+    justify-content: space-around;
+    width: 962px;
+    height: 415px;
+    border-radius: 30px;
+    position: absolute;
+    right: 20px;
+}
+
+.boxG{
+    text-align: center;
+    margin: auto;
+}
+
+.grade1{
+    font-size: 26px;
+    background-color: #F9F7C9;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 60px;
+    width: 650px;
+    height: 65px;
+    margin-left: 25px;
+}
+
+.grade2{
+    font-size: 26px;
+    background-color: #F9F7C9;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 650px;
+    height: 65px;
+    margin-left: 25px;
+}
+
+.grade3{
+    font-size: 26px;
+    background-color: #F9F7C9;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 650px;
+    height: 65px;
+    margin-left: 25px;
+}
+
+.grade4{
+    font-size: 28px;
+    background-color: #365486;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 650px;
+    height: 85px;
+    margin-left: 25px;
+}
+
+footer{
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+}

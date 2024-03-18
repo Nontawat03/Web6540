@@ -1,0 +1,91 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200;400;500;600;700&display=swap');
+
+
+body {
+    background-color: #ECACAC;
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Odia', sans-serif;
+}
+
+/* Start Header */
+header {
+    background-color: #A22525;
+}
+
+nav {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    /* border: 2px solid yellowgreen; */
+    /* width: 300px; */
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.h1-title {
+    margin-left: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.menu {
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+    list-style: none;
+    /* width: 500px; */
+}
+
+li {
+    margin-right: 15px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/* End Headre */
+
+/* Start Maim-content */
+
+.main-content{
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.box{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 30px 0px;
+}
+
+.image {
+    width: 100%;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #FF0000;
+    padding: 8px 24px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.text-param {
+    font-weight: 100;
+}
+/* End Maim-content */
+
+/* Start Footer */
+footer {
+    background-color: #A22525;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+/* End Footer */

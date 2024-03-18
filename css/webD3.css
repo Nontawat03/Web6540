@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(59, 28, 88); */
+    font-family: 'Anek Odia', sans-serif;
+}
+
+/* --------------------------------------------------------Start Header----------------------------------------------------*/
+
+header {
+    background-color: #520054;
+}
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1100px;
+    height: 48px;
+    
+    margin: auto;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ----------------------------------------Start Hero Section-------------------------------------------------- */
+
+.hero {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: rgb(124, 255, 255); */
+}
+
+.hero-tex--box {
+    color: #ffffff;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.hero-dutton {
+    /* background-color: rgb(148, 148, 255); */
+    display: flex;
+    
+}
+
+.hero-bt--getstar {
+    background-color: #B400B8;
+    padding: 8px 20px ;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+.hero-bt--watch {
+    /* background-color: rgb(224, 131, 8); */
+    display: flex;
+    align-items: center;
+}
+
+.Pricing {
+    /* background-color: black; */
+    /* align-items: center; */
+    color: #742277;
+    margin: auto;
+    width: 1100px;
+
+}
+.Pricing-1 {
+    /* align-items: center; */
+    margin-left: 450px;
+    /* background-color: aqua; */
+    text-transform: uppercase;
+}
+
+.Pricing-box {
+    display: flex;
+    /* background-color: rgb(0, 255, 21); */
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0px;
+    
+}
+
+.Pricing-box1 {
+    /* background-color: black; */
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px 2px #c7c7c7;
+    width: 320px;
+    height: 400px;
+    padding: 40px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+}
+
+.Pricing-box2 {
+    /* background-color: black; */
+    margin-right: 20px;
+    box-shadow: 0px 0px 8px 2px #c7c7c7;
+    width: 320px;
+    height: 400px;
+    padding: 40px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+}
+
+.Pricing-box3 {
+    /* background-color: black; */
+    margin-right: 20px;
+    box-shadow: 0px 0px 8px 2px #c7c7c7;
+    width: 320px;
+    height: 400px;
+    padding: 40px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+}
+
+/*----------------Start Members Section------------------------*/
+.text-h1 {
+    color: #742277;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+.text-param{
+    color: #000000;
+    text-align: center;
+}
+
+.Member{
+    background-color: #7A3B7C;
+    padding: 40px;
+    
+}
+
+.Member-box{
+    width: 1100px;
+    background-color: #ffffff;
+    margin: auto;
+    box-shadow: 0px 0px 5px 0.5px #C2C2C2;
+    border-radius: 5px;
+    padding: 1px 40px 50px;
+
+}
+
+table{
+    width: 80%;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+th, td{
+    border: 1px solid #000000;
+
+}
+
+.CONTACT{
+    width: 1100px;
+    color: #742277;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.Name{
+    margin-right: 430px;
+}
+
+.Mail{
+    margin-right: 420px;
+}
+
+.SUBJECT{
+    margin-right: 940px;
+}
+
+.MESSAGE{
+    margin-right: 940px;
+}
+
+.Name2{
+    margin: auto; 
+   width: 500px;  
+   background-color: #00B2FF;  
+}
+
+.Email{
+   margin: auto; 
+   width: 500px;  
+   background-color: #00B2FF; 
+}
+
+.Subject{
+   margin: auto; 
+   width: 1005px;  
+   background-color: #00B2FF; 
+}
+
+.Address{
+   margin: auto; 
+   width: 1005px;  
+   background-color: #00B2FF; 
+   padding: 5%;
+}
+
+.Send Message{
+    text-align: center;
+    margin: auto;
+}
+
+.submit{
+    
+    border-radius: 40px;
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+    margin-left: 50Px;
+    
+}
+
+footer {    
+    background-color: #520054; 
+    text-align: center; 
+    color: #ffffff;
+    padding: 10px;
+    }
+
+
+
